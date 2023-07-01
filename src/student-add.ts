@@ -1,8 +1,9 @@
-import {createClient} from '@supabase/supabase-js'
+import {createClient} from '@supabase/supabase-js';
+import { SUPABASE_API_URL, SUPABASE_KEY } from './src/config/private-keys.js';
 
 const supabaseUrl = 'https://qmcpcbrkipvyzwjxxfxf.supabase.co'
 const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFtY3BjYnJraXB2eXp3anh4ZnhmIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTY4NzUzNTQ3NSwiZXhwIjoyMDAzMTExNDc1fQ.ixeByzpjx6g38HELxcAClFM53TVRbIOVtXcSjy84Dkw'
-const supabase = createClient(supabaseUrl, supabaseKey)
+const supabase = createClient(SUPABASE_API_URL, SUPABASE_KEY )
 
 const fullNameEl: HTMLElement | null = document.querySelector('#full-name');
 const classEl: HTMLElement | null = document.querySelector('#class');

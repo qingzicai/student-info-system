@@ -1,0 +1,3 @@
+export const SUPABASE_API_URL='https://qmcpcbrkipvyzwjxxfxf.supabase.co';
+export const SUPABASE_KEY='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFtY3BjYnJraXB2eXp3anh4ZnhmIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTY4NzUzNTQ3NSwiZXhwIjoyMDAzMTExNDc1fQ.ixeByzpjx6g38HELxcAClFM53TVRbIOVtXcSjy84Dkw';
+
